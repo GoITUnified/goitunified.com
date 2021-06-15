@@ -1,0 +1,710 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  background-color: #fcfcfc;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+  color: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-background {
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 64rem;
+  margin-bottom: 50px;
+  padding-top: 0;
+  padding-bottom: 70px;
+  background-image: url("../images/graphic_design/landing_bg.jpg");
+  flex-direction: column;
+  background-position: 0px 0px, 100%, 50%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.navbar-pages {
+  height: 128px;
+  width: 100%;
+  background-color: #14192d;
+}
+
+.text-nav {
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.dropdown-item {
+  font-size: 1.1rem;
+  padding-top: .4rem !important;
+  padding-bottom: .4rem !important;
+}
+
+.text-nav:hover {
+    opacity: 1.9;
+    transition: all .1s ease;
+    transform: scale(1.05);
+}
+
+.navbar-dark .navbar-nav .nav-link.show {
+
+}
+
+.navbar-collapse {
+   transition-duration: 0s;
+}
+
+.navbar-collapse.show{
+  background-color: #14192d !important;
+}
+
+
+
+
+
+nav {
+    height: 69px;
+    width: 100%;
+    /*background: linear-gradient(to bottom, #000, #0003 70%,#0000); !* background when scroll is in the top *!*/
+    transition: background .5s; /* control how smooth the background changes */
+    /*transition: color .5s;*/
+}
+
+.bg-dark {
+  background:transparent !important;
+}
+
+.page-header {
+  font-size: 1.25rem;
+  margin-left: 0;
+}
+
+.background-image {
+  height: 5%;
+}
+
+.login-bar {
+  padding-right: 1rem;
+  padding-top: .25rem;
+}
+
+.cst-login {
+  padding-right: .25rem;
+}
+
+.login-link {
+  font-size: 1.2rem;
+  color: #aaaaaa;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.login-link:hover {
+  color: #cccccc;
+}
+
+.navbar {
+  padding-top: 0;
+  margin-top: 2.5rem;
+  position: fixed;
+  transition: 1s;
+}
+
+.btn-nav {
+  position: absolute;
+  left: 4%;
+  top: 10%;
+  display: none;
+
+}
+
+.navbar.scrolled {
+  background-color: #14192d !important;
+  transition: background-color 200ms linear;
+  overflow: visible;
+  margin-top: 0;
+  padding-top: 1rem;
+  height: 120px;
+}
+
+
+
+.navbar.scrolledbtn .btn-nav {
+  display: flex;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #141a1d;
+  color: #fff !important;
+}
+
+.dropdown-menu a{
+  color: #FFFFFF !important;
+}
+
+.dropdown-menu.show {
+  left: 18px;
+  top: 44.18px;
+  margin-top: 0;
+  background-color: #14192d !important;
+}
+
+.dropdown-menu a:hover{
+  color: #000 !important;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+.dropdown-menu{
+  margin-top: 0;
+}
+
+.nav-link:active{
+  color:red;
+}
+
+
+.page-header {
+  padding-top: 10rem;
+}
+
+.landing-image-section {
+  margin-top: 4rem;
+}
+
+.header-text {
+  padding-top: 2rem;
+  color: white;
+}
+
+.header-paragraph {
+  padding-top: 1.25rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+.header-img {
+  padding-left: 4rem;
+}
+
+.header-buttons {
+  padding-top: 1rem;
+}
+
+.services-list {
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 6rem;
+}
+
+.left-landing-image {
+  padding-right: 0;
+  padding-top: 1rem;
+}
+
+.middle-landing-image {
+  padding-top: 6rem;
+  padding-left: 0;
+}
+
+.right-landing-image {
+  padding-top: 1rem;
+}
+
+.btn {
+  border: none;
+  padding: .6rem;
+  margin: 1.25rem;
+  font-weight: 600;
+}
+
+.how-btn {
+  padding-right: .8rem;
+  padding-left: .8rem;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+.stay-btn:hover {
+   color: #000 !important;
+   background-color: red !important;
+   outline: none !important;
+   box-shadow: none;
+}
+
+.stay-btn {
+  color: #000;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.landing-building {
+  position: relative;
+  left: 17%;
+  top: -38%;
+}
+
+.landing-projmgmt {
+  position: relative;
+  left: -32%;
+  top: -230%;
+}
+
+.landing-servers {
+  position: relative;
+  left: 10%;
+  top: -370%;
+}
+
+.landing-cloud {
+  position: relative;
+  left: -32%;
+  top: -382%;
+
+}
+
+.landing-security {
+  position: relative;
+  left: 12%;
+  top: -480%;
+}
+
+.services-buttons{
+  padding-top: .5rem;
+}
+
+.services-btn {
+  border: none;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.cyber-header {
+  padding-top: 1.2rem;
+}
+
+.cyber-paragraph {
+  padding: .5rem 2rem 2rem;
+}
+
+.managed-header {
+  padding-top: 1.2rem;
+}
+
+.managed-paragraph {
+  padding: .5rem 2rem 0;
+}
+
+.cloud-header {
+  padding-top: 1.2rem;
+}
+
+.cloud-paragraph {
+  padding: .5rem 2rem 0;
+}
+
+.project-header {
+  padding-top: 1.2rem;
+}
+
+.project-paragraph {
+  padding: .5rem 2rem 0;
+}
+
+.why-partner {
+  /** TEMPORARY CANGE background-color: #F5F5F5; **/
+  background-color: #EEEEEE;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-bottom: 5rem;
+}
+
+.stay-informed {
+  background-color: #F5F5F5;
+  height: 1080px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.informed-h4 {
+  margin-top: 4rem;
+}
+
+.informed-p1 {
+  margin-top: 4rem;
+}
+
+.tech-partners {
+  background-color: #F5F5F5;
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: #eeeeee;
+}
+
+
+
+.angle--top-left {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%);
+}
+
+@supports not ((-webkit-clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%)) or (clip-path: polygon(0 calc(0% + 7vw), 100% 0, 100% 100%, 0 100%))) {
+  .angle--top-left::before, .angle--top-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--top-left::before {
+    top: 0;
+    border-width: 8vw 100vw 0 0;
+    border-color: #fff transparent transparent transparent;
+  }
+}
+
+.angle--top-right {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%);
+}
+
+@supports not ((-webkit-clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%)) or (clip-path: polygon(0 0, 100% calc(0% + 7vw), 100% 100%, 0 100%))) {
+  .angle--top-right::before, .angle--top-right::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--top-right::before {
+    top: 0;
+    border-width: 8vw 0 0 100vw;
+    border-color: #fff transparent transparent transparent;
+  }
+}
+
+.angle--bottom-left {
+  position: relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw));
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw));
+}
+
+@supports not ((-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw))) or (clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 7vw)))) {
+  .angle--bottom-left::before, .angle--bottom-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    display: block;
+    border-style: solid;
+  }
+  .angle--bottom-left::after {
+    bottom: 0;
+    border-width: 0 100vw 8vw 0;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+.angle__content {
+  display: block;
+  width: 100%;
+  height: 450px;
+}
+
+.angle--colour {
+  color: #fff;
+  background-color: #2196F3;
+  text-align: center;
+  padding: 10% 0;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/servers_main.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+}
+
+.partners {
+  background-color: #F5F5F5;
+}
+
+.partners-container {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  width: 676px;
+  height: 248px;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 6px;
+}
+
+.partners-container-small {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 6px;
+}
+
+
+.partners-background {
+  display: block;
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-image: url("../images/graphic_design/cloud_01.jpg");
+  opacity: 0.5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.tech-partners-background {
+  display: block;
+  width: 100%;
+  height: 360px;
+  background-color: #14192d;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+/*********************************************************************/
+/* Bootstrap 4 Multiple Item Carousel */
+/*********************************************************************/
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+      transform: translateX(50%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+      transform: translateX(-50%);
+  }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+      transform: translateX(33%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+      transform: translateX(-33%);
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item>div {
+      display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+.blog-main {
+  background-color: #F5F5F5;
+  height: 500px;
+  width: 100%;
+}
+
+.contact-us-main {
+  background-color: #F5F5F5;
+  height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.background-image-bottom {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-image: url("../images/office01.png");
+  opacity: 0.3;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.main-footer {
+  background-color: #2d2d2d;
+  height: 100%;
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.footer-row {
+  padding-bottom: 2rem;
+}
+
+.fade-effect1{
+  display:block;
+  border:none;
+  color:white;
+  height:1px;
+  background:black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 450, from(#dddddd), to(#2d2d2d));
+}
+
+.san {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+}
+.san:before, .san:after {
+  background-color: #ddd;
+  content: '\a0';
+  flex-grow: 1;
+  height: 1px;
+  position: relative;
+  top: 0.5em;
+
+}
+.san:before {
+  margin-right:10px;
+
+}
+.san:after {
+  margin-left:10px;
+
+}
+
+.contact-method {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.email {
+  padding-top: 1.5rem;
+}
+
+.footer-links {
+  color: #cccccc;
+}
+
+.services-footer-spacing {
+  margin-bottom: 1rem;
+}
+
+.services-footer {
+  color: #999999
+}
+
+.social-media {
+  padding-top: 1rem;
+}
+
+
+.social-media-icons {
+  margin-left: .25rem;
+  margin-right: .25rem;
+}
+
+.rights {
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
