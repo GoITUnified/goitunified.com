@@ -370,12 +370,14 @@ nav {
 }
 
 .stay-informed {
-  background-color: #F5F5F5;
-  height: 1080px;
+  /* background-color: #F5F5F5; */
+  background: -webkit-linear-gradient(left, #8f8e8e, #e6e4e4);
+  height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  padding-bottom: 2%;
 }
 
 .informed-h4 {
@@ -491,7 +493,9 @@ nav {
 }
 
 .partners {
-  background-color: #F5F5F5;
+  /* background-color: #F5F5F5; */
+  background: -webkit-linear-gradient(left, #8f8e8e, #e6e4e4);
+  margin-top: 3%;
 }
 
 .partners-container {
@@ -707,4 +711,58 @@ nav {
   color: #fff;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+
+.register-left{
+  text-align: center;
+  color: #fff;
+  margin-top: 4%;
+}
+.register-left input{
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  width: 60%;
+  background: #F5F5F5;
+  font-weight: bold;
+  color: #383d41;
+  margin-top: 30%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+.register-right{
+  background: #e6e4e4;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+
+
+.register-left p{
+  font-weight: lighter;
+  padding: 12%;
+  margin-top: -9%;
+}
+.register .register-form{
+  padding: 2% 10% 10%;
+  margin-top: 2% 10% 10%;
+}
+.btnRegister{
+  float: right;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #0062cc;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
+}
+
+.register-heading{
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: -15%;
+  color: #495057;
 }
