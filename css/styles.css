@@ -781,5 +781,5 @@ nav {
   margin-bottom: 3%;
   cursor: pointer;
 
-  background: #194f79;
+  background-color: #194f79 !important;
 }
