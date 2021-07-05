@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- CSS Stylesheets
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
@@ -32,7 +33,7 @@
 
   <body>
 
-    <div class="header-background"style="padding-bottom: 0;">
+    <div class="header-background-sites"style="padding-bottom: 0;">
       <div class="login-bar d-flex login-background justify-content-end login-link">
         <div class="navigation">
           <a class="d-inline-flex align-items-center mr-3 login-link text-nav" target="_blank" href="https://unifyingit.syncromsp.com/users/sign_in">
@@ -45,653 +46,233 @@
       </div>
 
     <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-        <!-- Logo -->
-          <a class="navbar-brand" href="index.html"><img src="images/Branding/New_Logo_Horizontal_SM.png" alt=""/></a>
-        <!-- Nav Bar -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" style="padding-left: 0px;" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-nav" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item nav-item text-nav" href="services.html">Cybersecurity</a></li>
-                  <li><a class="dropdown-item nav-item text-nav" href="#">Managed IT Services</a></li>
-                  <li><a class="dropdown-item nav-item text-nav" href="#">Cloud Services</a></li>
-                  <li><a class="dropdown-item nav-item text-nav" href="#">Project Management</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-nav" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Company
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item nav-item text-nav" href="#">About Us</a></li>
-                  <li><a class="dropdown-item nav-item text-nav" href="#">News</a></li>
-                  <li><a class="dropdown-item nav-item text-nav" href="#">Careers</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nav" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nav" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <!-- End of Navigation Bar -->
-
-<!-- Landing Page -->
-      <div class="container pt-3">
-        <div class="row align-items-center text-center" style="position: relative; padding-top: 8%;">
-          <div class="d-none d-xxl-block d-xl-block d-lg-block d-md-block d-sm-none header-text col-lg-6 style">
-            <h2> Unifying Your Business with the Right Technology</h2>
-            <p class="header-paragraph" style="padding-top: 2rem;">Every business is unique and has its own requirements.
-              It's time to match your business with the right solution.
-            </p>
-          </div>
-          <div class="d-block d-sm-none header-text col-lg-6 style" style="padding-top: 5rem;">
-            <h2> Unifying Your Business with the Right Technology</h2>
-            <p class="header-paragraph" style="padding-top: 2rem;">Every business is unique and has its own requirements.
-              It's time to match your business with the right solution.
-            </p>
-          </div>
-          <div class="d-none d-xl-none d-xxl-block col-lg-6">
-            <img src="images/graphic_design/icons/cloud_buildings.png" alt="landing graphic" style="width: 90%; height: auto; position:relative; padding-left: 8%; top: 3rem;"/></a>
-          </div>
-          <div class="d-none d-xxl-none d-xl-block  col-lg-6">
-            <img src="images/graphic_design/icons/cloud_buildings.png" alt="landing graphic" style="width: 90%; height: auto; position:relative; padding-left: 4%;"/>
-          </div>
-          <div class="d-none d-xxl-none d-xl-none d-lg-block col-lg-6">
-            <img src="images/graphic_design/icons/cloud_buildings.png" alt="landing graphic" style="width: 90%; height: auto; position:relative; padding-left: 4%;"/>
-          </div>
-
-          <div class="d-none d-xl-none d-xxl-block text-center header-buttons col-lg-6" style="margin-top: -10%;">
-            <a href="#services"><button type="button" class="how-btn btn btn-primary btn-success" style="background-color: #53823b!important;">How We Can Help</button></a>
-            <a href="#informed"><button type="button" class="btn btn-light">Stay Informed</button></a>
-          </div>
-          <div class="d-none d-xxl-none d-xl-block text-center header-buttons col-lg-6" style>
-            <a href="#services"><button type="button" class="how-btn btn btn-primary btn-success" style="background-color: #53823b!important;">How We Can Help</button></a>
-            <a href="#informed"><button type="button" class="btn btn-light">Stay Informed</button></a>
-          </div>
-          <div class="d-none d-xxl-none d-xl-none d-lg-block text-center header-buttons col-lg-6" style>
-            <a href="#services"><button type="button" class="how-btn btn btn-primary btn-success" style="background-color: #53823b!important;">How We Can Help</button></a>
-            <a href="#informed"><button type="button" class="btn btn-light">Stay Informed</button></a>
-          </div>
-          <div class="d-none d-xxl-none d-xl-none d-lg-none d-md-block text-center header-buttons col-lg-6">
-            <a href="#services"><button type="button" class="how-btn btn btn-primary btn-success" style="background-color: #53823b!important;">How We Can Help</button></a>
-            <a href="#informed"><button type="button" class="btn btn-light">Stay Informed</button></a>
-          </div>
-          <div class="d-md-none text-center header-buttons col-lg-6">
-            <a href="#services"><button type="button" class="how-btn btn btn-primary btn-success" style="background-color: #53823b!important;">How We Can Help</button></a>
-            <a href="#informed"><button type="button" class="btn btn-light">Stay Informed</button></a>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+      <!-- Logo -->
+        <a class="navbar-brand" href="index.html"><img src="images/Branding/New_Logo_Horizontal_SM.png" alt=""/></a>
+      <!-- Nav Bar -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" style="padding-left: 0px;" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-nav" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item nav-item text-nav" href="services-cybersecurity.html">Cybersecurity</a></li>
+                <li><a class="dropdown-item nav-item text-nav" href="services-managed-it.html">Managed IT Services</a></li>
+                <li><a class="dropdown-item nav-item text-nav" href="services-cloud.html">Cloud Services</a></li>
+                <li><a class="dropdown-item nav-item text-nav" href="services-project-management.html">Project Management</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-nav" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item nav-item text-nav" href="company-about.html">About Us</a></li>
+                <li><a class="dropdown-item nav-item text-nav" href="company-news.html">News</a></li>
+                <li><a class="dropdown-item nav-item text-nav" href="company-careers.html">Careers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-nav" href="itunified-blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-nav" href="best-msp-chicago.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  <!-- End of Navigation Bar -->
 
-        <div class="row align-items-center text-center">
-          <div class="d-none d-xxl-none d-xl-none d-lg-none d-md-block col-lg-6">
-              <img src="images/graphic_design/icons/cloud_buildings.png" alt="landing graphic" style="width: 60%; height: auto; position:relative; padding-top: 10%;"/>
-          </div>
-          <div class="d-md-none col-lg-6">
-              <img src="images/graphic_design/icons/cloud_buildings.png" alt="landing graphic" style="width: 70%; height: auto; position:relative; padding-top: 6%"/>
-          </div>
-        </div>
-
-      </div>
-<!-- End of Landing Page-->
-
-
-
-<!-- Services -->
-  <section class="services" id="services">
-    <div class="container text-center">
-      <h3>How We Can Help</h3>
-    </div>
-
-    <div class="services-list">
-      <div class="container services-container">
-      <!-- Top row of services -->
-        <div class="row">
-        <!-- Cyber Security -->
-        <div class="col-lg-6 col-sm-12" style="padding-top: 6rem;">
-          <div class="text-center">
-            <img src="images/graphic_design/icons/services-security.svg" alt="cloud services" class="align-items-end justify-content-end" width="200" height="100" />
-          </div>
-          <div class="cyber-header text-center">
-            <h4>
-              Cybersecurity
-            </h4>
-          </div>
-          <div class="cyber-paragraph">
-            Cybersecurity is essental for keeping your data protected from bad actors inside and outside of your organization. 
-            We help keep your data safe from ransomware, malware, and other risks. We provide training to your staff too!
-          </div>
-          <div class="text-center services-buttons">
-            <button type="button" class="how-btn btn services-btn btn-primary btn-success" style="background-color: #53823b!important;">Learn More</button>
-          </div>
-        </div>
-
-        <!-- Network and Systems-->
-          <div class="col-lg-6 col-sm-12" style="padding-top: 6rem;">
-            <div class="text-center">
-              <img src="images/graphic_design/icons/services-servers.svg" alt="Network and Systems Services" class="align-items-end justify-content-end" width="200" height="100" />
-            </div>
-            <div class="managed-header text-center">
-              <h4>
-                IT Managed Services
-              </h4>
-            </div>
-            <div class="managed-paragraph">
-              We provide proactive support for your business to help you focus on what you need to get done. Our team monitors your systems and
-              network 24/7/365 and are available when you need us most. Have an IT staff already? We also provide Co-managed support!
-            </div>
-            <div class="text-center services-buttons">
-              <button type="button" class="how-btn btn services-btn btn-primary btn-success" style="background-color: #53823b!important;">Learn More</button>
-            </div>
-          </div>
-        </div>
-      <!-- Bottom row of services -->
-        <div class="row">
-          <!-- Cloud -->
-            <div class="col-lg-6 col-sm-12" style="padding-top: 6rem;">
-              <div class="text-center">
-                <img src="images/graphic_design/icons/services-cloud.svg" alt="cloud services" class="align-items-end justify-content-end" width="200" height="100" />
-              </div>
-              <div class="cloud-header text-center">
-                <h4>
-                  Cloud Computing
-                </h4>
-              </div>
-              <div class="cloud-paragraph">
-                Whether you have your data in the cloud or want it there, we can help migrate, manage and keep your data secure there! We can 
-                help strategize the best design for your organizations needs.
-              </div>
-              <div class="text-center services-buttons">
-                <button type="button" class="how-btn btn services-btn btn-primary btn-success" style="background-color: #53823b!important;">Learn More</button>
-              </div>
-            </div>
-        <!-- Project Management -->
-        <div class="col-lg-6 col-sm-12" style="padding-top: 6rem;">
-          <div class="text-center">
-            <img src="images/graphic_design/icons/services-projmgmt.svg" alt="Project Management Services" class="align-items-end justify-content-end" width="200" height="100" />
-          </div>
-          <div class="project-header text-center">
-            <h4>
-              Project Management
-            </h4>
-          </div>
-          <div class="project-paragraph">
-            Our team is ready to help upgrade your database, servers, network or even help with vendor management. Regardless of the size of 
-            the project, we're here to offload those IT tasks.
-          </div>
-          <div class="text-center services-buttons">
-            <button type="button" class="how-btn btn services-btn btn-primary btn-success" style="background-color: #53823b!important;">Learn More</button>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
+  <section class="header-sites">
   </section>
-<!-- End of Services -->
 
-<!-- Why Partner With Us -->
-  <section class="why-partner">
-    <div class="container text-center" style="padding-top: 50px;">
-      <h3>Why Partner With Us</h3>
+<!-- About Us Header -->
+<section class="about-us-header">
+  <div class="angle--bottom-left">
+    <div class="d-none d-md-block about-us-header-background">
     </div>
 
-    <div class="container why-container">
-      <div class="row">
-        <div class="col-lg-4 col-sm-12" style="padding-top: 6rem;">
-          <div class="text-center">
-            <img src="images/graphic_design/icons/secure.svg" alt="keep infrastructure secure" class="align-items-end justify-content-end" width="200" height="100" />
-          </div>
-          <div class="cloud-header text-center">
-            <h4>
-              Keep Your Infrastructure Secured
-            </h4>
-          </div>
-          <div class="cloud-paragraph">
-            No matter if your employees are in the office or working from home, we'll help keep your data secure.
-          </div>
-          <div class="text-center services-buttons">
-            <button type="button" class="how-btn btn services-btn btn-primary btn-success" style="background-color: #53823b!important;">Learn More</button>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-12" style="padding-top: 6rem;">
-          <div class="text-center">
-            <img src="images/graphic_design/icons/frustrate.svg" alt="frustration out of IT" class="align-items-end justify-content-end" width="200" height="100" />
-          </div>
-          <div class="cloud-header text-center">
-            <h4>
-              Take The Frustration out of IT
-            </h4>
-          </div>
-          <div class="cloud-paragraph">
-            We know you and your team our busy. We take the headache's out of IT with our knowledgeable and friendly IT staff.
-          </div>
-          <div class="text-center services-buttons">
-            <button type="button" class="how-btn btn services-btn btn-primary btn-success" style="background-color: #53823b!important;">Learn More</button>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-12" style="padding-top: 6rem;">
-          <div class="text-center">
-            <img src="images/graphic_design/icons/compliance.svg" alt="achieve compliance" class="align-items-end justify-content-end" width="200" height="100" />
-          </div>
-          <div class="compliance-header text-center">
-            <h4>
-              Help You Achieve Compliance
-            </h4>
-          </div>
-          <div class="compliance-paragraph">
-            We help companies achieve and stay compliant with HIPAA, SOC2, PCI-DSS, and NERC.
-          </div>
-          <div class="text-center services-buttons">
-            <button type="button" class="how-btn btn services-btn btn-primary btn-success" style="background-color: #53823b!important;">Learn More</button>
-          </div>
-        </div>
-      </div>
+    <div class="d-block d-md-none about-us-header-background-small">
     </div>
-  </section>
-<!-- End of Why Partner With Us -->
 
-<!-- Global Partners -->
-  <section class="partners" style="margin-bottom: -220px;">
-    <div class="angle--bottom-left">
-      <div class="partners-background ">
-      </div>
-    </div>
-    <div class="container text-start" style="position: relative;top: -400px;">
-      <div class=" d-none d-xl-block col-lg-6 partners-container"
-        <h4 style="font-size: 2.25rem;"> Trusted Partnerships Worldwide</h4>
-        <p style="font-weight:900;">
-          __________________
-        </p>
-        <p style="font-size: 1.1rem;">
-          IT Unified is a trusted IT partner for companies from the Chicagoland area all the way to Europe. Contact us to find out if we're the right partner for your business' needs.
-        </p>
-      </div>
-    </div>
-    <div class="container text-start" style="position: relative;top: -400px;">
-      <div class="d-xl-none col-sm-12 partners-container-small"
-        <h4 style="font-size: 2rem;"> Trusted Partnerships Worldwide</h4>
-        <p style="font-weight:900;">
-          __________________
-        </p>
-        <p style="font-size: 1.1rem;">
-          IT Unified is a trusted IT partner for companies from the Chicagoland area all the way to Europe. Contact us to find out if we're the right partner for your business' needs.
-        </p>
-      </div>
-    </div>
-  </section>
-<!-- End of Global Partners -->
+  </div>
+  <div class="d-none d-md-block container text-start" style="position: relative;top: -300px;">
+    <div class="col-lg-6 about-us-header-container"
+      <h4 style="font-size: 2.25rem;"> About Us</h4>
 
-<!-- Stay Informed 
-<section class="stay-informed" style="margin-top: -200px;">
-  <div class="container-fluid register">
-    <div class="row">
-        <div class="col-md-3 register-left">
-          <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
-          <h3 style="color:#fff">Stay Informed</h3>
-          <p>You are moments away from securing your business!</p>
-        </div>
-        <div class="col-md-9 register-right">
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="row register-form">
-                      <div class="container text-center">
-                        <h4 style="font-size:2.25rem;">Don't wait for an attack in order to take action.</h4>
-                      </div>
-                      <div class="container informed-h4">
-                        <h4> Keep your business prepared and alert to prevent a compromise.</h4>
-                        <br>
-                        <h5 style="font-size: 1.1rem;"> Sign up to receive some security tips and best practices to help keep your data and your customers data protected against cyber criminals.</h5>
-                      </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-input">
-                                <input type="text" class="form-control" placeholder="First Name *" value="" tabindex="1"/>
-                            </div>
-                            <div class="form-group form-input">
-                              <input type="email" class="form-control" placeholder="Email Address *" value="" tabindex="3" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group form-input">
-                            <input type="text" class="form-control" placeholder="Last Name *" value="" tabindex="2"/>
-                        </div>
-                          <div class="form-group form-input">
-                              <input type="tel" class="form-control"  placeholder="Phone Number *" value="" tabindex="4" />
-                          </div>
-                        </div>
-                        <div class="form-group form-input" style="padding-left: 1rem; padding-top: 1.5rem;">
-                          <input type="checkbox" id="stay-informed-box" name="stay-informed-box" value="sign-up" tabindex="5">
-                          <label for="stay-informed-box" class="position-relative" style="top:-4px; left:4px;">Sign up to receive our newsletter with up to date information in the technology world.</label><br>
-                       </div>                        
-                        <div class="text-center">
-                          <button class="btn btn-primary submit-informed" type="submit" tabindex="6">Stay Informed</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+  </div>
+  <div class="d-block d-md-none container text-start" style="position: relative;top: -200px;">
+    <div class="col-sm-12 about-us-header-container-small"
+      <h4 style="font-size: 2rem;"> About Us</h4>
     </div>
   </div>
 </section>
-End of Stay Informed -->
+<!-- End of About Us Header -->
 
 
-<!-- Stay Informed -->
-<section class="stay-informed" style="margin-top: -200px;">
-  <div class="container-fluid register">
-    <div class="row">
-        <div class="col-md-3 register-left">
-          <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
-          <h3 style="color:#fff">Stay Informed</h3>
-          <p>You are moments away from securing your business!</p>
-        </div>
-        <div class="col-md-9 register-right">
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-                    <form class="row needs-validation register-form" action="php/mail-handler.php" method="POST">
-                      <div class="container text-center">
-                        <h4 style="font-size:2.25rem;">Don't wait for an attack in order to take action.</h4>
-                      </div>
-                      <div class="container informed-h4">
-                        <h4> Keep your business prepared and alert to prevent a compromise.</h4>
-                        <br>
-                        <h5 style="font-size: 1.1rem;"> Sign up to receive some security tips and best practices to help keep your data and your customers data protected against cyber criminals.</h5>
-                      </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-input">
-                                <input type="text" name="fName" class="form-control" placeholder="First Name *" value="" tabindex="1" required/>
-                                <div class="invalid-feedback">
-                                  Please enter your first name.
-                                </div>
-                            </div>
-                            <div class="form-group form-input">
-                              <input type="email" name="email" class="form-control" placeholder="Email Address *" value="" tabindex="3" required />
-                              <div class="invalid-feedback">
-                                Invalid email address.
-                              </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group form-input">
-                            <input type="text" name="lName" class="form-control" placeholder="Last Name *" value="" tabindex="2" required/>
-                            <div class="invalid-feedback">
-                              Please enter your last name.
-                            </div>
-                        </div>
-                          <div class="form-group form-input">
-                              <input type="tel" name="number" class="form-control"  placeholder="Phone Number" value="" tabindex="4" />
-                          </div>
-                        </div>
-                        <div class="form-group form-input" style="padding-left: 1rem; padding-top: 1.5rem;">
-                          <input type="checkbox" id="stay-informed-box" name="stay-informed-box" value="sign-up" tabindex="5">
-                          <label for="stay-informed-box" class="position-relative" style="top:-4px; left:4px;">Sign up to receive our newsletter with up to date information in the technology world.</label><br>
-                       </div>                        
-                        <div class="text-center">
-                          <button class="btn btn-primary submit-informed" type="submit" tabindex="6">Stay Informed</button>
-                        </div>
-                      </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-  </div>
 
-</section>
-<!-- End of Stay Informed -->
 
-<!-- Tech Partnerships -->
-<section class="tech-partners" style="margin-top: 0rem;">
-  <div class="tech-partners-background">
-  </div>
-  <div class="container text-center" style="position: relative;top: -340px;">
-    <h4 style="font-size: 2.25rem;"> Strategic Vendor Partnerships</h4>
-    <div class="container text-center" style="padding-top: 32px;">
-      <div class="row mx-auto my-auto">
-        <!-- Multi Item Carousel -->
-             <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
-                 <div class="carousel-inner w-100" role="listbox">
-                     <div class="carousel-item active">
-                         <div class="col-lg-4 col-md-6">
-                          <img src="images/logos/fortinet-logo.svg" alt="Fortinet Logo" width="460" height="260" />
-                         </div>
-                     </div>
-                     <div class="carousel-item">
-                      <div class="col-lg-4 col-md-6">
-                       <img src="images/logos/syncro-logo.svg" alt="SyncroMSP Logo" width="430" height="240"/>
-                      </div>
-                    </div>
-                     <div class="carousel-item">
-                         <div class="col-lg-4 col-md-6">
-                          <img src="images/logos/cisco-logo.svg" alt="Cisco Logo" width="350" height="180" />
-                         </div>
-                     </div>
-                     <div class="carousel-item">
-                         <div class="col-lg-4 col-md-6">
-                          <img src="images/logos/microsoft-logo.svg" alt="Microsoft Logo" width="450" height="250" />
-                         </div>
-                     </div>
-                     <div class="carousel-item">
-                         <div class="col-lg-4 col-md-6">
-                          <img src="images/logos/lenovo-logo.svg" alt="Lenovo Logo" width="430" height="240" />
-                         </div>
-                     </div>
-                     <div class="carousel-item">
-                         <div class="col-lg-4 col-md-6">
-                          <img src="images/logos/synology-logo.svg" alt="Synology Logo" width="430" height="240" />
-                         </div>
-                     </div>
-                     <div class="carousel-item">
-                      <div class="col-lg-4 col-md-6">
-                       <img src="images/logos/bitdefender-logo.svg" alt="BitDefender Logo" width="350" height="180" />
-                      </div>
-                      </div>
-                     <div class="carousel-item">
-                      <div class="col-lg-4 col-md-6">
-                       <img src="images/logos/bitwarden-logo.svg" alt="BitWarden Logo" width="430" height="240"/>
-                      </div>
-                    </div>
-                 </div>
-             </div>
-         </div>
-     </div>
-
-  <!-- Multi Item Carousel JS -->
-     <script>
- try {
-   fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
-     return true;
-   }).catch(function(e) {
-     var carbonScript = document.createElement("script");
-     carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
-     carbonScript.id = "_carbonads_js";
-     document.getElementById("carbon-block").appendChild(carbonScript);
-   });
- } catch (error) {
-   console.log(error);
- }
- </script>
-     <!--scripts loaded here-->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-     <script src="carousel.js"></script>
-     <script type="text/javascript">
- 
-   var _gaq = _gaq || [];
-   _gaq.push(['_setAccount', 'UA-36251023-1']);
-   _gaq.push(['_setDomainName', 'jqueryscript.net']);
-   _gaq.push(['_trackPageview']);
- 
-   (function() {
-     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-   })();
-
-   $('#myCarousel').carousel({
-    interval: 2500
-})
-
-$('.carousel .carousel-item').each(function() {
-    var minPerSlide = 4;
-    var next = $(this).next();
-    if (!next.length) {
-        next = $(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
-
-    for (var i = 0; i < minPerSlide; i++) {
-        next = next.next();
-        if (!next.length) {
-            next = $(this).siblings(':first');
-        }
-
-        next.children(':first-child').clone().appendTo($(this));
-    }
-});
-
- 
- </script>
-<!-- End of Multi Item Carousel -->
-  </div>
-
-</section>
-<!-- End of Tech Partnerships -->
-
-<!-- Most Recent Blog Posts -->
-<section class="blog-main">
+<!-- Container 1-->
+<section class="about-us-container" style="padding-top: 1rem;">
   <div class="container">
     <div class="row">
-      <h4 class="text-center" style="padding-top: 6px;">
-        Blog Section
-      </h4>
-    </div>
-  </div>
-</section>
-<!-- End of Most Recent Blog Posts -->
+      
+      <div class="about-us-top col-sm-12 col-lg-12">
+        <div class="about-itu text-start">
+          <h3 class="about-us-h3">Worry-Free IT. Every Time.</h4>
+            <span class="fade-effect-about text-center"></span>
+        </div>
+          <div class="about-us-p">
+            IT Unified is not only the leading managed service provider in the Chicagoland area, but we pride ourselves in giving our clients Worry-Free IT. Staying up-to-date on the latest trends in technology, we make sure our clients receive the most efficient products on the market with the assurance that their information is kept safe and sound.
+            <br><br>
+            Opening our doors in 2018, IT Unified lives by the motto that we do business professionally, the right way, the first time. Our trained professionals are ready to quickly and efficiently work with your small and medium-sized businesses to ensure that they are getting outstanding customer service, getting the newest up-to-date products and that there is a plan in place to keep your business secure.
+            <br><br>
+            If your business is looking for managed IT services, do not look further! Call IT Unified today for a free consultation on what technology you should use to benefit and secure your company. Call IT Unified at <b><a href="tel://3123400686">312.340.0686</a></b> or <b><a href="mailto:info@goitunified.com">contact us</a></b> today.
+          </div>
+      </div>
 
-<!-- Like What You See? -->
-<section class="contact-us-main" style="margin-top: -12rem;">
-  <div class="angle--top-right">
-    <div class="background-image-bottom">
+
     </div>
   </div>
-  <div class="container" style="margin-top: -175px;">
+
+</section>
+<!-- End of Container 1-->
+
+<!-- Container 2 -->
+<section class="services-site-container2" style="padding: 3rem 0 4rem; position: relative; top: -100px;">
+  <div class="container">
     <div class="row">
-      <div class=" d-none d-xl-block col-lg-6">
-        <h4 style="color: #000; font-size: 2.5rem;"> Like what you see?</h4>
-        <h4 style="color: #000; font-size: 2.5rem;"> Contact us for Worry Free IT!</h4>
+      <div class="text-center">
+        <h3 class="about-us-h3" style="color: #fff;">Our Mission</h3>
+        
+    </div>
+    </div>
+  </div>
+  
+ 
+
+</section>
+<!-- End of Container 2-->
+
+<!-- Container 3-->
+<section class="about-us-container" style="padding-top: 1rem;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8 about-us-certs">
+        <div class="about-us-p">
+          Our mission is to provide your business the most secure and best solutions in order to help you succeed. After all, when you succeed, we succeed.
       </div>
-      <div class=" d-xl-none col-lg-6 col-sm-12">
-        <h4 style="color: #000; font-size: 1.75rem;"> Like what you see?</h4>
-        <h4 style="color: #000; font-size: 1.75rem;"> Contact us for Worry Free IT!</h4>
-      </div>
-      <div class="d-none d-lg-block col-lg-6 col-sm-12">
-        <a href="#"><button type="button" class="btn btn-light" style="position: absolute; margin-top: 2.5rem; right: 22%; background-color: #194f79; color: #fff; padding: .8rem 3rem;">Free Consultation</button></a>
-      </div>
-      <div class="d-lg-none col-lg-6 col-sm-12">
-        <a href="#"><button type="button" class="btn btn-light text-center" style="position: absolute; margin-top: 2rem; background-color: #194f79; color: #fff;padding: .8rem 3rem;">Free Consultation</button></a>
       </div>
     </div>
   </div>
+
 </section>
-<!-- End of Like What You See?-->
 
+<!-- Don't Wait -->
+<section class="services-bottom-blue">
+  <div class="container text-center">
+    <div class="row">
 
+      <div class="d-none d-lg-block about-how-large">
+        <h3 class="about-wait-header" > An easier IT experience starts here!</h3>
+      </div>
+
+      <div class="d-block d-lg-none about-how-small">
+        <h3 class="about-wait-header" style="font-size: 1.75rem;"> An easier IT experience starts here!</h3>
+      </div>
+      
+        <a href="#"><button type="button" class="btn btn-light text-center" style="margin-top: 2rem; background-color: #194f79; color: #fff;padding: .8rem 3rem;">Free Consultation</button></a>
+    </div>
+    <div style="padding-bottom: 1.5rem;"></div>
+  </div>
+</section>
 
 <!-- Footer -->
-  <footer class="main-footer">
-    <div class="container" style="padding-top: 2.5rem;">
-      <div class="row footer-row">
-          <div class="d-none d-sm-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3 mb-sm-0">
-            <div class="contact-method">
-              <a class="navbar-brand text-center" href="index.html"><img src="images/Branding/New_Logo_Horizontal_SM.png" alt=""/></a>
-              <p class="email">
-                <a href="mailto:info@goitunified.com">info@goitunified.com</a>
-              </p>
-              <p class="telephone">
-                <a href="tel://3123400686">(312) 340-0686</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="d-sm-none col-sm-12 col-12 mb-3 mb-sm-0">
-            <div class="contact-method text-center">
-              <a class="navbar-brand text-center" href="index.html"><img src="images/Branding/New_Logo_Horizontal_SM.png" alt=""/></a>
-              <p class="email">
-                <a href="mailto:info@goitunified.com">info@goitunified.com</a>
-              </p>
-              <p class="telephone">
-                <a href="tel://3123400686">(312) 340-0686</a>
-              </p>
-            </div>
-          </div>
-
-          <div class="d-none d-sm-block col-xl-3 col-lg-3 col-md-2 col-sm-6 col-12 mb-3 mb-sm-0 footer-links">
-            <h4 style="padding-bottom: 1.1rem;">Services</h4>  
-              <p class="services-footer">
-                <a href="#">Cybersecurity</a>
-                <br class="services-footer-spacing">
-                <a href="#">Managed IT Services</a>
-                <br class="services-footer-spacing">
-                <a href="#">Cloud Services</a>
-                <br class="services-footer-spacing">
-                <a href="#">Project Management</a>
-              </p>
-          </div>
-          <div class="d-none d-md-block col-xl-3 col-lg-2 col-md-2 col-sm-2 col-12 mb-3 mb-sm-0 footer-links">
-            <h4 style="padding-bottom: 1.1rem;">Company</h4>  
-              <p class="services-footer">
-                <a href="#">About Us</a>
-                <br class="services-footer-spacing">
-                <a href="#">News</a>
-                <br class="services-footer-spacing">
-                <a href="#">Careers</a>
-                <br class="services-footer-spacing">
-                <a href="#">Diversity & Inclusion</a>
-              </p>
-          </div>
-          <div class="d-none d-md-block col-xl-3 col-lg-3 col-md-2 col-sm-2 col-12 mb-3 mb-sm-0">
-            <p class="services-footer" style="padding-top: 3rem;">
-              <a href="#">Blog</a>
-              <br class="services-footer-spacing">
-              <a href="#">Contact</a>
-              <br class="services-footer-spacing">
-              <a href="#">Privacy Policy</a>
-              <br class="services-footer-spacing">
-              <a href="#">Terms & Conditions</a>
+<footer class="main-footer">
+  <div class="container" style="padding-top: 2.5rem;">
+    <div class="row footer-row">
+        <div class="d-none d-sm-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-3 mb-sm-0">
+          <div class="contact-method">
+            <a class="navbar-brand text-center" href="index.html"><img src="images/Branding/New_Logo_Horizontal_SM.png" alt=""/></a>
+            <p class="email">
+              <a href="mailto:info@goitunified.com">info@goitunified.com</a>
+            </p>
+            <p class="telephone">
+              <a href="tel://3123400686">(312) 340-0686</a>
             </p>
           </div>
-      </div>
-      <div style="width:100%; height: 12px;">
-        <span class="fade-effect1"></span><br/><br/>
-      </div>
-      <div class="social-media text-center">
-        <a href="https://www.linkedin.com/company/goitunified" class="social-media-icons"><img src="images/logos/linkedin-logo.svg" alt="LinkedIn" width="32" height="32" /></a>
-        <a href="https://www.twitter.com/GoITUnified" class="social-media-icons"><img src="images/logos/twitter-logo.svg" alt="Twitter" width="32" height="32" /></a>
-        <a href="https://www.facebook.com/GoITUnified" class="social-media-icons"><img src="images/logos/facebook-logo.svg" alt="Facebook" width="32" height="32" /></a>
-        <a href="https://www.youtube.com/channel/UCVmNFVcMwbruAl1XXwGtDng" class="social-media-icons"><img src="images/logos/youtube-logo.svg" alt="Youtube" width="32" height="32" /></a>
-      </div>
-      <div class="rights text-center">
-         © 2021 <a class="itu" href="#">IT Unified</a> All Rights Reserved.
-      </div>
- </div> 
+        </div>
+
+        <div class="d-sm-none col-sm-12 col-12 mb-3 mb-sm-0">
+          <div class="contact-method text-center">
+            <a class="navbar-brand text-center" href="index.html"><img src="images/Branding/New_Logo_Horizontal_SM.png" alt=""/></a>
+            <p class="email">
+              <a href="mailto:info@goitunified.com">info@goitunified.com</a>
+            </p>
+            <p class="telephone">
+              <a href="tel://3123400686">(312) 340-0686</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="d-none d-sm-block col-xl-3 col-lg-3 col-md-2 col-sm-6 col-12 mb-3 mb-sm-0 footer-links">
+          <h4 style="padding-bottom: 1.1rem;">Services</h4>
+            <p class="services-footer">
+              <a href="services-cybersecurity.html">Cybersecurity</a>
+              <br class="services-footer-spacing">
+              <a href="services-managed-it.html">Managed IT Services</a>
+              <br class="services-footer-spacing">
+              <a href="services-cloud.html">Cloud Services</a>
+              <br class="services-footer-spacing">
+              <a href="services-project-management.html">Project Management</a>
+            </p>
+        </div>
+        <div class="d-none d-md-block col-xl-3 col-lg-2 col-md-2 col-sm-2 col-12 mb-3 mb-sm-0 footer-links">
+          <h4 style="padding-bottom: 1.1rem;">Company</h4>
+            <p class="services-footer">
+              <a href="company-about.html">About Us</a>
+              <br class="services-footer-spacing">
+              <a href="company-news.html">News</a>
+              <br class="services-footer-spacing">
+              <a href="company-careers.html">Careers</a>
+              <br class="services-footer-spacing">
+              <a href="company-about.html">Diversity & Inclusion</a>
+            </p>
+        </div>
+        <div class="d-none d-md-block col-xl-3 col-lg-3 col-md-2 col-sm-2 col-12 mb-3 mb-sm-0">
+          <p class="services-footer" style="padding-top: 3rem;">
+            <a href="itunified-blog.html">Blog</a>
+            <br class="services-footer-spacing">
+            <a href="best-msp-chicago.html">Contact</a>
+            <br class="services-footer-spacing">
+            <a href="#">Privacy Policy</a>
+            <br class="services-footer-spacing">
+            <a href="#">Terms & Conditions</a>
+          </p>
+        </div>
+    </div>
+    <div style="width:100%; height: 12px;">
+      <span class="fade-effect1"></span><br/><br/>
+    </div>
+    <div class="social-media text-center">
+      <a href="https://www.linkedin.com/company/goitunified" class="social-media-icons"><img src="images/logos/linkedin-logo.svg" alt="LinkedIn" width="32" height="32" /></a>
+      <a href="https://www.twitter.com/GoITUnified" class="social-media-icons"><img src="images/logos/twitter-logo.svg" alt="Twitter" width="32" height="32" /></a>
+      <a href="https://www.facebook.com/GoITUnified" class="social-media-icons"><img src="images/logos/facebook-logo.svg" alt="Facebook" width="32" height="32" /></a>
+      <a href="https://www.youtube.com/channel/UCVmNFVcMwbruAl1XXwGtDng" class="social-media-icons"><img src="images/logos/youtube-logo.svg" alt="Youtube" width="32" height="32" /></a>
+    </div>
+    <div class="rights text-center">
+       © 2021 <a class="itu" href="index.html">IT Unified</a> All Rights Reserved.
+    </div>
+</div>
 </footer>
 <!-- End of Footer -->
 
