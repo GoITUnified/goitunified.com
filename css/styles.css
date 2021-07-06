@@ -29,6 +29,8 @@ a {
   text-decoration: none;
 }
 
+
+
 .header-background {
   position: static;
   display: block;
@@ -1201,5 +1203,30 @@ input[type='checkbox']:checked {
   height: 1px;
   background-color: #194f79;
   border: 1px solid #194f79;
-
   }
+
+  .reach-out {
+    padding: .5rem 20%;
+  }
+
+
+.email-contact {
+  font-size: 1.25rem;
+  padding: .5rem 22%;
+}
+
+.call-contact {
+  font-size: 1.25rem;
+  padding: .5rem 22%;
+}
+
+.privacy-policy {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.privacy-h {
+  padding-bottom: 1rem;
+}
