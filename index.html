@@ -337,59 +337,6 @@
   </section>
 <!-- End of Global Partners -->
 
-<!-- Stay Informed
-<section class="stay-informed" style="margin-top: -200px;">
-  <div class="container-fluid register">
-    <div class="row">
-        <div class="col-md-3 register-left">
-          <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
-          <h3 style="color:#fff">Stay Informed</h3>
-          <p>You are moments away from securing your business!</p>
-        </div>
-        <div class="col-md-9 register-right">
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="row register-form">
-                      <div class="container text-center">
-                        <h4 style="font-size:2.25rem;">Don't wait for an attack in order to take action.</h4>
-                      </div>
-                      <div class="container informed-h4">
-                        <h4> Keep your business prepared and alert to prevent a compromise.</h4>
-                        <br>
-                        <h5 style="font-size: 1.1rem;"> Sign up to receive some security tips and best practices to help keep your data and your customers data protected against cyber criminals.</h5>
-                      </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-input">
-                                <input type="text" class="form-control" placeholder="First Name *" value="" tabindex="1"/>
-                            </div>
-                            <div class="form-group form-input">
-                              <input type="email" class="form-control" placeholder="Email Address *" value="" tabindex="3" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group form-input">
-                            <input type="text" class="form-control" placeholder="Last Name *" value="" tabindex="2"/>
-                        </div>
-                          <div class="form-group form-input">
-                              <input type="tel" class="form-control"  placeholder="Phone Number *" value="" tabindex="4" />
-                          </div>
-                        </div>
-                        <div class="form-group form-input" style="padding-left: 1rem; padding-top: 1.5rem;">
-                          <input type="checkbox" id="stay-informed-box" name="stay-informed-box" value="sign-up" tabindex="5">
-                          <label for="stay-informed-box" class="position-relative" style="top:-4px; left:4px;">Sign up to receive our newsletter with up to date information in the technology world.</label><br>
-                       </div>
-                        <div class="text-center">
-                          <button class="btn btn-primary submit-informed" type="submit" tabindex="6">Stay Informed</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  </div>
-</section>
-End of Stay Informed -->
-
 
 <!-- Stay Informed -->
 <section class="stay-informed" style="margin-top: -200px;">
@@ -404,7 +351,7 @@ End of Stay Informed -->
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-                    <form class="row needs-validation register-form"  method="POST" data-netlify="true">
+                    <form class="row needs-validation register-form" method="POST" data-netlify="true">
                       <div class="container text-center">
                         <h4 style="font-size:2.25rem;">Don't wait for an attack in order to take action.</h4>
                       </div>
@@ -413,7 +360,9 @@ End of Stay Informed -->
                         <br>
                         <h5 style="font-size: 1.1rem;"> Sign up to receive some security tips and best practices to help keep your data and your customers data protected against cyber criminals.</h5>
                       </div>
-                        <div class="col-md-6">
+
+                  <!-- Medium screens -->
+                        <div class="d-none d-md-block col-md-6">
                             <div class="form-group form-input">
                                 <input type="text" name="fName" class="form-control" placeholder="First Name *" value="" tabindex="1" required/>
                                 <div class="invalid-feedback">
@@ -427,7 +376,8 @@ End of Stay Informed -->
                               </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+
+                        <div class="d-none d-md-block col-md-6">
                           <div class="form-group form-input">
                             <input type="text" name="lName" class="form-control" placeholder="Last Name *" value="" tabindex="2" required/>
                             <div class="invalid-feedback">
@@ -438,13 +388,63 @@ End of Stay Informed -->
                               <input type="tel" name="number" class="form-control"  placeholder="Phone Number" value="" tabindex="4" />
                           </div>
                         </div>
+
+                    <!-- End of Medium screens -->
+
+                    <!-- small screens -->
+                          <div class="d-block d-md-none col-12">
+                              <div class="form-group form-input">
+                                  <input type="text" name="fName" class="form-control" placeholder="First Name *" value="" tabindex="1" required/>
+                                  <div class="invalid-feedback">
+                                    Please enter your first name.
+                                  </div>
+                              </div>
+
+                              <div class="form-group form-input">
+                                <input type="text" name="lName" class="form-control" placeholder="Last Name *" value="" tabindex="2" required/>
+                                <div class="invalid-feedback">
+                                  Please enter your last name.
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="d-block d-md-none col-12">
+                            <div class="form-group form-input">
+                              <input type="email" name="email" class="form-control" placeholder="Email Address *" value="" tabindex="3" required />
+                              <div class="invalid-feedback">
+                                Invalid email address.
+                              </div>
+                            </div>
+
+
+                            <div class="form-group form-input">
+                                <input type="tel" name="number" class="form-control"  placeholder="Phone Number" value="" tabindex="4" />
+                            </div>
+                          </div>
+
+                      <!-- End of small screens -->
+
+
+                      <div class="d-none d-xl-block xl-screen-informed">
                         <div class="form-group form-input" style="padding-left: 1rem; padding-top: 1.5rem;">
                           <input type="checkbox" id="stay-informed-box" name="stay-informed-box" value="sign-up" tabindex="5">
                           <label for="stay-informed-box" class="position-relative" style="top:-4px; left:4px;">Sign up to receive our newsletter with up to date information in the technology world.</label><br>
                        </div>
+                     </div>
+
+                     <div class="d-block d-xl-none lg-screen-informed">
+                       <div class="form-group form-input" style="padding-left: 1rem; padding-top: 1.5rem;">
+                         <input type="checkbox" id="stay-informed-box" name="stay-informed-box" value="sign-up" tabindex="5">
+                         <label for="stay-informed-box" class="position-relative" style="top:-30px; left:32px;">Sign up to receive our newsletter with up to date information in the technology world.</label><br>
+                      </div>
+                    </div>
+
                         <div class="text-center">
                           <button class="btn btn-primary submit-informed" type="submit" tabindex="6">Stay Informed</button>
                         </div>
+
+
+
                       </form>
                 </div>
             </div>
@@ -575,7 +575,7 @@ $('.carousel .carousel-item').each(function() {
 </section>
 <!-- End of Tech Partnerships -->
 
-<!-- Most Recent Blog Posts -->
+<!-- Most Recent Blog Posts (Work in Progress)
 <section class="blog-main">
   <div class="container">
     <div class="row">
@@ -585,7 +585,7 @@ $('.carousel .carousel-item').each(function() {
     </div>
   </div>
 </section>
-<!-- End of Most Recent Blog Posts -->
+ End of Most Recent Blog Posts -->
 
 <!-- Like What You See? -->
 <section class="contact-us-main" style="margin-top: -12rem;">
