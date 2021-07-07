@@ -829,6 +829,10 @@ nav {
   background-color: #194f79 !important;
 }
 
+.submit-informed:hover {
+  background-color: #3775a5 !important;
+}
+
 
 input[type='checkbox'] {
   -webkit-appearance:none;
