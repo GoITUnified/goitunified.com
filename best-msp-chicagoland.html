@@ -113,7 +113,7 @@
           <h3 class="services-h3-black" style="font-size: 1.75rem; padding-bottom: 2rem;">Have Us Reach Out to You</h3>
 
 
-                              <form class="row needs-validation register-form" method="POST" name="contact-us" data-netlify-recaptcha="true" data-netlify="true" >
+                              <form class="row needs-validation register-form" method="POST" name="contact-us" netlify-honeypot="bot-field" data-netlify="true" >
 
                                 <div class="form-group form-input">
                                     <input type="text" name="contact-company-name" class="form-control"  placeholder="Company Name" value="" tabindex="1" />
@@ -159,7 +159,13 @@
                                   <textarea class="form-control" id="message" name="contact-message" placeholder="Message" rows="3" tabindex="6"></textarea>
                                 </div>
 
-                                  <div data-netlify-recaptcha="true"></div>
+                                <div class="d-none">
+                                  <label>
+                                    Don’t fill this out if you’re human: <input name="bot-field" />
+                                  </label>
+                                </div>
+
+
 
                                   <div class="text-center">
                                     <button class="btn btn-primary submit-informed" name="contact-submit" type="submit" tabindex="7">Submit</button>
