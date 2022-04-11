@@ -366,7 +366,7 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-                    <form class="row requires-validation register-form" method="POST" name="stay-informed" data-netlify="true">
+                    <form class="row requires-validation register-form" method="POST" name="stay-informed" netlify-honeypot="newsletter" data-netlify="true">
                       <div class="container text-center">
                         <h4 style="font-size:2.25rem;">Don't wait for an attack to take action.</h4>
                       </div>
@@ -408,6 +408,12 @@
                       <div class="form-group form-input">
                           <input type="tel" name="informed-number" class="form-control"  placeholder="Phone Number" value="" tabindex="4" />
                       </div>
+                    </div>
+
+                    <div class="d-none">
+                      <label>
+                        Sign up to our newsletter: <input type="text" name="newsletter" />
+                      </label>
                     </div>
 
 
